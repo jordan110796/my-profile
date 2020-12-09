@@ -1,0 +1,93 @@
+
+
+body {
+    background: #f0efeb;
+    color: #C17C74
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: lighter;
+}
+ h1, h2, h3 {
+  font-family: arial;
+   color: #56638A
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 700;
+}
+
+h3 {
+font-size: 15px;
+  font-weight: lighter;
+  font-weight: 700;
+}
+a {
+  font-family: "roboto", sans-serif
+  text-decoration: none;
+  color:  #C17C74;
+  font-weight: bold;
+  font-size: 16px
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  margin: 30px 300px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+  }
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  }
+  .list-inline li {
+  display: inline;
+  padding: 20px;
+  }
+
+.list-inline i:hover {
+  font size: 30px;
+  color: rgb(230,230, 230);
+   }
+
+#introduction p {
+  margin-bottom: 35px
+  }
+
+
+
